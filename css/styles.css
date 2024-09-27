@@ -85,20 +85,28 @@
     font-size: 30px;
 }
 
+#loc-email{
+    align-items: center ;
+}
 #email-container {
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 #email-container ion-icon,
 #email-container a {
     flex: 1 1 0;
+    margin-bottom: 5px;
 }
 
 #email-container a {
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
+}
+
+#locId {
+    text-align: left;
 }
 
 #email-container ion-icon {
